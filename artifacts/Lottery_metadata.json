@@ -7,6 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "manager",
 				"outputs": [
 					{
@@ -17,6 +35,62 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "noOfParticipants",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "participants",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "selectWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -47,11 +121,11 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0x4fe2d5225fea3023157fe6d0dbb3e6c5b4aa67d742535870e0a7bcfe6ebe4242",
+			"keccak256": "0xdb6be89091f36c08ef3dbdeac55b8f856aaab10d685bc847353a59acf52658bc",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://e6ca31b52c2f39c6c4a34222f436d6bb9cd007ddfe289e2bdd88d28ee294d934",
-				"dweb:/ipfs/QmQs4MoResLuG2Nb61RPadMk5TmUDp9SXRgaBR24fQbkrP"
+				"bzz-raw://87b3a668e1c4d1d3b6d4db2bea00ae78f3f452591f2b7d136a0a5c0821a1e0cd",
+				"dweb:/ipfs/QmY9N3VJWEtcm1ECPnCKydM693LXE9DqbmuAEgNjuhzNhv"
 			]
 		}
 	},
