@@ -43,10 +43,13 @@ uint index=r%participants.length;
 winner=participants[index];
 winner.transfer(getBalance());
 
-while(participants.length!=0)
-{
-    participants.pop();
-}
+participants=new address payable[](0);
+
+// while(participants.length!=0)
+// {
+//     participants.pop();
+// }
+
 
 }
 

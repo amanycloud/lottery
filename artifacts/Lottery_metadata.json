@@ -121,11 +121,11 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0xdb6be89091f36c08ef3dbdeac55b8f856aaab10d685bc847353a59acf52658bc",
+			"keccak256": "0x2f6cfea77466cfadf6bf519038f52cf8eb05535c87e121b37dc5fbf81c817c05",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://87b3a668e1c4d1d3b6d4db2bea00ae78f3f452591f2b7d136a0a5c0821a1e0cd",
-				"dweb:/ipfs/QmY9N3VJWEtcm1ECPnCKydM693LXE9DqbmuAEgNjuhzNhv"
+				"bzz-raw://63f50f6ee92eff204eb866a61614b716507d66702fbf3fbbd5cec4e44a451d60",
+				"dweb:/ipfs/QmWSNNkfaH3GDSuH9ucbEwzPDjNrbiugvJxQQKhszo8u8Y"
 			]
 		}
 	},
